@@ -82,7 +82,7 @@ get.edge <- function(graph, id) {
 
 #' Head of the edge(s) in a graph
 #'
-#' For undirected graphs, head and tail is not defined.  In this case
+#' For undirected graphs, head and tail are not defined.  In this case
 #' `head_of()` returns vertices incident to the supplied edges, and
 #' `tail_of()` returns the other end(s) of the edge(s).
 #'
@@ -99,7 +99,7 @@ head_of <- function(graph, es) {
 
 #' Tails of the edge(s) in a graph
 #'
-#' For undirected graphs, head and tail is not defined.  In this case
+#' For undirected graphs, head and tail are not defined.  In this case
 #' `tail_of()` returns vertices incident to the supplied edges, and
 #' `head_of()` returns the other end(s) of the edge(s).
 #'
